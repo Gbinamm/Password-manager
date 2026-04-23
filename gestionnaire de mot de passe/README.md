@@ -16,29 +16,31 @@ Avant de lancer le projet, assurez-vous que les outils suivants sont installés 
 ## Installation
 
 1. Clonez le dépôt GitHub :
-
-   ```bash
-   git clone [URL_DU_DEPOT]
-   cd [NOM_DU_DOSSIER] 
+```bash
+git clone [URL_DU_DEPOT]
+cd [NOM_DU_DOSSIER]
 ```
 
 2. Installez les dépendances nécessaires au projet :
-
-   ```bash 
-   npm install
-   ```
-## Développement
-Pour lancer l'application en mode développement avec le rechargement automatique :
-
-   ```bash 
-npm run tauri dev   
+```bash
+npm install
 ```
-## Compilation 
+
+## Développement
+
+Pour lancer l'application en mode développement avec le rechargement automatique :
+```bash
+npm run tauri dev
+```
+
+## Compilation
+
 Pour générer l'exécutable final (le fichier .exe, .app ou .deb) :
-   ```bash 
+```bash
 npm run tauri build
 ```
+
 L'exécutable compilé se trouvera dans le dossier :
- ```bash 
+```bash
 src-tauri/target/release/bundle/
 ```
