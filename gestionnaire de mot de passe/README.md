@@ -16,9 +16,11 @@ Avant de lancer le projet, assurez-vous que les outils suivants sont installés 
 ## Installation
 
 1. Clonez le dépôt GitHub :
+
    ```bash
    git clone [URL_DU_DEPOT]
-   cd [NOM_DU_DOSSIER]
+   cd [NOM_DU_DOSSIER] 
+```
 
 2. Installez les dépendances nécessaires au projet :
 
